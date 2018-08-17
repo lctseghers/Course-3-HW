@@ -41,26 +41,45 @@ Initial column names for the measurements were taken from the features.txt file,
     fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
     
 For each of the following measurements, mean and standard deviation was provided, resulting in 66 measurement types.
+
 Time variables:
+
 tBodyAcc-X, Y, and Z-axis
+
 tGravityAcc-X, Y, and Z-axis
+
 tBodyAccJerk-X, Y, and Z-axis
+
 tBodyGyro-X, Y, and Z-axis
+
 tBodyGyroJerk-X, Y, and Z-axis
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
 
 Fast Fourier Transform variables
+
 fBodyAcc-X, Y, and Z-axis
+
 fBodyAccJerk-X, Y, and Z-axis
+
 fBodyGyro-X, Y, and Z-axis
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
+
 
 Activities were initially represented by numbers 1-6, so these were replaced with character strings (converted to lower case) representing the names of the activities from the activity_labels.txt file.  The activities, in variable "activities", are:
 1. walking
