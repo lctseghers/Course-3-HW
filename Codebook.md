@@ -64,7 +64,8 @@ tBodyGyroMag
 
 tBodyGyroJerkMag
 
-Fast Fourier Transform variables
+
+Fast Fourier Transform variables:
 
 fBodyAcc-X, Y, and Z-axis
 
