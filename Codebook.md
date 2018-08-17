@@ -41,73 +41,26 @@ Initial column names for the measurements were taken from the features.txt file,
     fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
     
 For each of the following measurements, mean and standard deviation was provided, resulting in 66 measurement types.
-                                            
- "time.body.linear-acceleration.mean.x-axis"
- "time.body.linear-acceleration.mean.y-axis"             
- "time.body.linear-acceleration.mean.z-axis"
- "time.gravity.linear-acceleration.mean.x-axis"          
- "time.gravity.linear-acceleration.mean.y-axis"           
- "time.gravity.linear-acceleration.mean.z-axis"          
- "time.body.linear-acceleration.jerk.mean.x-axis"         
- "time.body.linear-acceleration.jerk.mean.y-axis"        
- "time.body.linear-acceleration.jerk.mean.z-axis"         
- "time.body.angular-velocity.mean.x-axis"                
- "time.body.angular-velocity.mean.y-axis"                 
- "time.body.angular-velocity.mean.z-axis"                
- "time.body.angular-velocity.jerk.mean.x-axis"           
- "time.body.angular-velocity.jerk.mean.y-axis"           
- "time.body.angular-velocity.jerk.mean.z-axis"            
- "time.body.linear-acceleration.magnitude.mean"          
- "time.gravity.linear-acceleration.magnitude.mean"        
- "time.body.linear-acceleration.jerk.magnitude.mean"     
- "time.body.angular-velocity.magnitude.mean"              
- "time.body.angular-velocity.jerk.magnitude.mean"        
- "fft.body.linear-acceleration.mean.x-axis"               
- "fft.body.linear-acceleration.mean.y-axis"              
- "fft.body.linear-acceleration.mean.z-axis"               
- "fft.body.linear-acceleration.jerk.mean.x-axis"         
- "fft.body.linear-acceleration.jerk.mean.y-axis"          
- "fft.body.linear-acceleration.jerk.mean.z-axis"         
- "fft.body.angular-velocity.mean.x-axis"                  
- "fft.body.angular-velocity.mean.y-axis"                 
- "fft.body.angular-velocity.mean.z-axis"                  
- "fft.body.linear-acceleration.magnitude.mean"           
- "fft.body.body.linear-acceleration.jerk.magnitude.mean"  
- "fft.body.body.angular-velocity.magnitude.mean"         
- "fft.body.body.angular-velocity.jerk.magnitude.mean"     
- "time.body.linear-acceleration.stdev.x-axis"            
- "time.body.linear-acceleration.stdev.y-axis"             
- "time.body.linear-acceleration.stdev.z-axis"            
- "time.gravity.linear-acceleration.stdev.x-axis"          
- "time.gravity.linear-acceleration.stdev.y-axis"         
- "time.gravity.linear-acceleration.stdev.z-axis"          
- "time.body.linear-acceleration.jerk.stdev.x-axis"       
- "time.body.linear-acceleration.jerk.stdev.y-axis"        
- "time.body.linear-acceleration.jerk.stdev.z-axis"       
- "time.body.angular-velocity.stdev.x-axis"                
- "time.body.angular-velocity.stdev.y-axis"               
- "time.body.angular-velocity.stdev.z-axis"               
- "time.body.angular-velocity.jerk.stdev.x-axis"          
- "time.body.angular-velocity.jerk.stdev.y-axis"           
- "time.body.angular-velocity.jerk.stdev.z-axis"          
- "time.body.linear-acceleration.magnitude.stdev"          
- "time.gravity.linear-acceleration.magnitude.stdev"      
- "time.body.linear-acceleration.jerk.magnitude.stdev"     
- "time.body.angular-velocity.magnitude.stdev"            
- "time.body.angular-velocity.jerk.magnitude.stdev"        
- "fft.body.linear-acceleration.stdev.x-axis"             
- "fft.body.linear-acceleration.stdev.y-axis"              
- "fft.body.linear-acceleration.stdev.z-axis"             
- "fft.body.linear-acceleration.jerk.stdev.x-axis"         
- "fft.body.linear-acceleration.jerk.stdev.y-axis"        
- "fft.body.linear-acceleration.jerk.stdev.z-axis"         
- "fft.body.angular-velocity.stdev.x-axis"                
- "fft.body.angular-velocity.stdev.y-axis"                 
- "fft.body.angular-velocity.stdev.z-axis"                
- "fft.body.linear-acceleration.magnitude.stdev"           
- "fft.body.body.linear-acceleration.jerk.magnitude.stdev"
- "fft.body.body.angular-velocity.magnitude.stdev"        
- "fft.body.body.angular-velocity.jerk.magnitude.stdev"
+Time variables:
+tBodyAcc-X, Y, and Z-axis
+tGravityAcc-X, Y, and Z-axis
+tBodyAccJerk-X, Y, and Z-axis
+tBodyGyro-X, Y, and Z-axis
+tBodyGyroJerk-X, Y, and Z-axis
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+
+Fast Fourier Transform variables
+fBodyAcc-X, Y, and Z-axis
+fBodyAccJerk-X, Y, and Z-axis
+fBodyGyro-X, Y, and Z-axis
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
 
 Activities were initially represented by numbers 1-6, so these were replaced with character strings (converted to lower case) representing the names of the activities from the activity_labels.txt file.  The activities, in variable "activities", are:
 1. walking
