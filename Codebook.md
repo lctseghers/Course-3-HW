@@ -12,7 +12,9 @@ For each record in the dataset the following were provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The first tidy data set created by the script "run_analysis.R" is the result of the following processing:
+The first tidy data set, called "mean_and_std", created by the script "run_analysis.R" is the result of the following processing:
+
+Data from a test and a training data set were combined with their respective subject and activity data files and were merged based on subject number.
 
 Initial column names for the measurements were taken from the features.txt file, cleaned of punctuation, filtered to retain only mean and standard deviation measurements, and relabeled for easier readability.  Some more recognizable abbreviations were used, such as fft for Fast Fourier Transform and stdev for standard deviation.  The following is a list of what column name components were expanded.
     ## t means time*
